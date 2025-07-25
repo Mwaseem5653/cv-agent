@@ -1,5 +1,5 @@
 chainlit>=2.6.2
-git+https://github.com/openai/agents.git
+openai-agents
 python-dotenv
 pinecone
 PyPDF2
