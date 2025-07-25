@@ -1,5 +1,0 @@
-chainlit>=2.6.2
-openai-agents
-python-dotenv
-pinecone
-PyPDF2
