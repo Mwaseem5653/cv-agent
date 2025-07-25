@@ -155,3 +155,5 @@ async def main(message : cl.Message):
             await cl.Message(content=f"LLM Fails To Return an Answer as error {e}").send()
     else:
         await cl.Message(content="No Matched or Releavent Info Found In CV").send()
+
+cl.run(host="0.0.0.0", port=8000)
